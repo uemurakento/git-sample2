@@ -2,7 +2,14 @@ package jp.co.rakus;
 
 public class Test {
 	private int num;
+
 	private String comment;
+
+	private int age;
+
+	public int getNum() {
+		return num;
+	}
 
 	public String getComment() {
 		return comment;
@@ -12,8 +19,12 @@ public class Test {
 		this.comment = comment;
 	}
 
-	public int getNum() {
-		return num;
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
 	}
 
 	public void setNum(int num) {
